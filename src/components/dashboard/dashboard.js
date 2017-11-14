@@ -4,8 +4,9 @@ import './dashboard.css';
 class Dashboard extends Component {
   render() {
     return (
-      <div> 
+      <div className="appHeader">
         hellow world
+        {alert("LOUD NOISES")}
       </div>
     );
   }

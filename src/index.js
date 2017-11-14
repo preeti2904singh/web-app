@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import './index.css';
-import App from '../src/components/App';
-import registerServiceWorker from './registerServiceWorker';
+import App from './components/App';
 
 ReactDOM.render(
     <MuiThemeProvider>
@@ -11,5 +9,3 @@ ReactDOM.render(
     </MuiThemeProvider>, 
     document.getElementById('root')
 );
-
-registerServiceWorker();
